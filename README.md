@@ -8,3 +8,8 @@ Standard usage is ```sudo python2 probereq.py -i [Interface name] ```. The inter
 1. manuf
 2. argparse
 3. scapy
+
+# License
+
+[GNU General Public License, version 3 (GPLv3)](https://www.gnu.org/licenses/gpl.txt)
+
