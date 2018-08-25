@@ -1,9 +1,10 @@
 #!/usr/bin/env python2
-# Option to ignore gen-probe does by default /done
+# Option to ignore gen-probe  /done
 # identify devices based on MAC oui /done
 # write to a file contiuasly /done
 # option to use any interface /done
-#fix time updating
+# fix time updating
+
 # os.system('clear') #clears screen
 
 # pip install scapy + manuf +argparse
@@ -63,9 +64,6 @@ if broad in no :
                     print >> f, time + " [%s] [%s] looking for --> [%s]" %(mac,ven,ssid)
                     print time + " [%s] [%s] looking for --> [%s]" %(mac,ven,ssid)
 sniff(iface=iname,prn=proc)
-
-else :
-    print "That answer does not work"
 
 if KeyboardInterrupt:
             print("Interrupted. Exiting...")
