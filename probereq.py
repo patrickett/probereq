@@ -64,6 +64,9 @@ if broad in no :
                     print time + " [%s] [%s] looking for --> [%s]" %(mac,ven,ssid)
 sniff(iface=iname,prn=proc)
 
+else :
+    print "That answer does not work"
+
 if KeyboardInterrupt:
             print("Interrupted. Exiting...")
             f.close()
