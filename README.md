@@ -15,6 +15,9 @@ I find this easier than saving an entire pcap file.
 2. argparse
 3. scapy
 
+# Issues
+1. Time does not update beyond the first check (Same time each log)
+
 # License
 
 [GNU General Public License, version 3 (GPLv3)](https://www.gnu.org/licenses/gpl.txt)
