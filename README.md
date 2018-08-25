@@ -1,8 +1,14 @@
 # probereq
-Start to a simple probe request application made using python.
+Simple probe request script made using python and scapy.
 
 # Usage
-Standard usage is ```sudo python2 probereq.py -i [Interface name] ```. The interface needs to be in monitor mode though.
+Firstly you need to ```sudo airmon-ng start [Interface name] ``` and follow the prompts to get your device into monitor mode.
+
+After your device is in monitor mode you can use ```sudo python2 probereq.py -i [Interface name] ```. 
+Then it will ask if you want "Broadcast probes." Broadcast probes do not contain an SSID only a MAC from the device it's coming from.
+
+The script also creates a file called ```probes.txt ``` in the directory you run the script in. It prints whatever the terminal does to a file. Just in case you want to go back and look at what you scanned.
+I find this to be easier then saving an entire pcap file.
 
 # Dependencies 
 1. manuf
