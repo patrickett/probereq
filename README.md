@@ -11,6 +11,8 @@ The script also creates a file called ```probes.txt ``` in the directory you run
 I find this easier than saving an entire pcap file.
 
 # Dependencies
+These can be installed with pip ```pip install [package]```
+
 1. manuf
 2. argparse
 3. scapy
