@@ -19,8 +19,10 @@ These can be installed with pip ```pip install [package]```
 2. argparse
 3. scapy
 
-# Issues
-1. Time does not update beyond the first check (Same time each log)
+# Contributing
+
+If you would like to contribute or suggest any improvements to the project, please submit a merge request.
+
 
 # License
 
