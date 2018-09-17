@@ -12,6 +12,8 @@ Then it will ask if you want "Broadcast probes." Broadcast probes do not contain
 The script also creates a file called ```probes.txt ``` in the directory you run the script in. It prints whatever the terminal does to a file. For when you want to go back and look at what you scanned.
 I find this easier than saving an entire pcap file.
 
+To quit, just ```Ctrl+C```
+
 # Dependencies
 These can be installed with pip ```pip install [package]```
 
