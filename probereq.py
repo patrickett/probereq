@@ -1,13 +1,4 @@
 #!/usr/bin/env python2
-# Option to ignore gen-probe does by default /done
-# identify devices based on MAC oui /done
-# write to a file contiuasly /done
-# option to use any interface /done
-# fix time updating /done
-# os.system('clear') #clears screen
-
-# pip install scapy + manuf +argparse
-
 from scapy.all import *
 import sys
 from os import geteuid
